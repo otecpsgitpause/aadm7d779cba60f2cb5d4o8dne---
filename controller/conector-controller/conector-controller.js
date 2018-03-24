@@ -12,7 +12,7 @@ var conector = {
         cryptoUtil.cryptoMethod.decode(req.body.monkey).then((decode1) => {
             jData = JSON.parse(decode1);
             console.log(jData);
-            if (sistem.sistem1.domain == jData.a && sistem.sistem1.urlBase == jData.b && sistem.sistem1.appPortRun == jData.c && sistem.sistem1.appProtocolRun == jData.d && sistem.sistem1.identification == jData.e) {
+            if (sistem.sistem1.domain == jData.a) {
                 request.post('https://aadm41ad8cdp90b2m04aepi98p---.herokuapp.com/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ/eyJ1c2VybmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3QiLCJpYXQiOjE1MDE4NzM5NDMsImV4cCI6MTUwMTg4MDk0M3', { form: { data: req.body.monkey } }, (err, httpResponse, body) => {
                     console.log('estoy adentro de esto');
                     console.log({sistemConfig1:sistem.sistem1});
@@ -29,7 +29,7 @@ var conector = {
                 })
 
                 //sistemConf.sistem2.urlBase + sistemConf.sistem2.tkm
-            } else if (sistem.sistem3.domain == jData.a && sistem.sistem3.urlBase == jData.b && sistem.sistem3.appPortRun == jData.c && sistem.sistem3.appProtocolRun == jData.d && sistem.sistem3.identification == jData.e) {
+            } else if (sistem.sistem3.domain == jData.a) {
                 request.post('https://aadm41ad8cdp90b2m04aepi98p---.herokuapp.com/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ/eyJ1c2VybmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3QiLCJpYXQiOjE1MDE4NzM5NDMsImV4cCI6MTUwMTg4MDk0M3', { form: { data: req.body.monkey } }, (err, httpResponse, body) => {
                     console.log('estoy adentro de esto');
                     cryptoUtil.cryptoMethod.encode(body).then(encode => {
