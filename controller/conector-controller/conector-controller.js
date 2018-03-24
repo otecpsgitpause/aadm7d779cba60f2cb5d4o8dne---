@@ -17,7 +17,7 @@ var conector = {
                     console.log('estoy adentro de esto');
                     console.log({sistemConfig1:sistem.sistem1});
                     console.log({sistemConfig2:sistemConf.sistem2});
-                    console.log({respuestaApiRest:body);
+                    console.log({respuestaApiRest:body});
                     cryptoUtil.cryptoMethod.encode(body).then(encode => {
 
                         res.json({
