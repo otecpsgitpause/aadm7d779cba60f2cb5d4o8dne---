@@ -1,0 +1,22 @@
+{
+
+    "backend": [{
+        "methodName": "edtPrbRgt()",
+        "ubicacion": "administracion-prueba.service.ts",
+        "descripcion": "metodo que envia los datos de una prueba editada",
+        "urlUseAPi": [{
+            "ambito": "342b7"
+        }],
+        "useMethod": [{
+            "ubicacion": "administrar-pruebas-registradas.component.ts",
+            "methodReference": [{
+                "method": "regPba()",
+                "descripción": "envia la prueba editada a la api"
+            }]
+        }],
+        "codigo": "mb-0"
+    }],
+    "elearning": [{
+        "methodName": ""
+    }]
+}

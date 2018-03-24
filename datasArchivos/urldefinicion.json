@@ -1,0 +1,101 @@
+{
+    "urls": [{
+            "n":"0",
+            "ambito": "342b1",
+            "descripcion": "permite el login al sistema administración"
+        },
+        {
+            "n":"1",
+            "ambito": "342b2",
+            "descripcion": "permite el registro de la prueba"
+        },
+        {
+            "n":"2",
+            "ambito": "342b3",
+            "descripcion": "envia la información del curso"
+        },
+        {
+            "n":"3",
+            "ambito": "342b4",
+            "descripcion": "entrega prueba,modulo_curso,curso,area"
+        },
+        {
+            "n":"4",
+            "ambito": "342b5",
+            "descripcion": "permite el borrado de una prueba"
+        },
+        {
+            "n":"5",
+            "ambito": "342b6",
+            "descripcion": "permite la edición de la prueba entregado las preguntas y alternativas como datos"
+        },
+        {
+            "n":"6",
+            "ambito": "342b7",
+            "descripcion": "permite el registro de los datos de la prueba editada"
+
+        },
+        {
+            "n":"7",
+            "ambito": "313c1",
+            "descripcion": "envia los datos del area"
+        },
+        {
+            "n":"8",
+            "ambito": "415a1",
+            "descripcion": "registro de curso"
+        },
+        {
+            "n":"9",
+            "amibto": "671a1",
+            "descripcion": "permite el registro de un area al cual asociar los cursos"
+        },
+        {
+            "n":"10",
+            "ambito": "415a2",
+            "descripcion": "permite la obtención de cursos"
+
+        },
+        {
+            "n":"11",
+            "ambito": "415a3",
+            "descripcion": "permite el borrado de los cursos"
+        },
+        {
+            "n":"12",
+            "ambito": "415a4",
+            "descripcion": "permite la obtención cursos,modulo_curso,clases,contenidos,pruebas"
+        },
+        {
+            "n":"13",
+            "ambito": "922p1",
+            "descripcion": "obtención de cursos enrol alumno"
+        },
+        {
+            "n":"14",
+            "ambito": "672a2",
+            "descripcion": "borrar un área"
+        },
+        {
+            "n":"15",
+            "ambito": "673a5",
+            "descripcion": "editar un área"
+        },
+        {
+            "n":"16",
+            "ambito":"900a1",
+            "descripcion":"añade estudiantes, crea la definicion del estudiante en la base de datos"
+        },
+        {
+            "n":"17",
+            "ambito":"4202at1",
+            "descripcion":"Obtiene las alertas registradas en la base de datos"
+        },
+        {
+            "n":"18",
+            "ambito":"4202at2",
+            "descripcion":"registra alertas o mensajes en la base de datos"
+        }
+
+    ]
+}
