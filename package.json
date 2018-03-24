@@ -2,9 +2,6 @@
   "name": "conector-api",
   "version": "1.0.0",
   "description": "Conect api-rest heroku",
-  "engines": {
-    "node": "6.10.0"
-  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
