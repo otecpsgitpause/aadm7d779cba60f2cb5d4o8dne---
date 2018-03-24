@@ -15,8 +15,8 @@ var conector = {
             if (sistem.sistem1.domain == jData.a && sistem.sistem1.urlBase == jData.b && sistem.sistem1.appPortRun == jData.c && sistem.sistem1.appProtocolRun == jData.d && sistem.sistem1.identification == jData.e) {
                 request.post(sistemConf.sistem2.urlBase + sistemConf.sistem2.tkm, { form: { data: req.body.monkey } }, (err, httpResponse, body) => {
                     console.log('estoy adentro de esto');
-                    console.log({sistemConfig1:sistem.sistem1);
-                    console.log({sistemConfig2:sistemConf.sistem2);
+                    console.log({sistemConfig1:sistem.sistem1});
+                    console.log({sistemConfig2:sistemConf.sistem2});
                     console.log({respuestaApiRest:body);
                     cryptoUtil.cryptoMethod.encode(body).then(encode => {
 
