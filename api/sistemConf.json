@@ -16,7 +16,7 @@
     },
     "sistem2": {
         "domain": "localhost",
-        "urlBase": "http://localhost:9000/",
+        "urlBase": "https://aadm41ad8cdp90b2m04aepi98p---.herokuapp.com/",
         "appPortRun": "4200",
         "appProtocolRun": "http:",
         "identification": "a946306b",
