@@ -16,7 +16,7 @@
     },
     "sistem2": {
         "domain": "herokuapp",
-        "urlBase": "https://aadm41ad8cdp90b2m04aepi98p---.herokuapp.com/",
+        "urlBase": "https://admapiapp.herokuapp.com/",
         "appPortRun": "",
         "appProtocolRun": "https:",
         "identification": "a946306b",
