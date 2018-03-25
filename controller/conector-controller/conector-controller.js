@@ -13,7 +13,7 @@ var conector = {
         cryptoUtil.cryptoMethod.decode(req.body.monkey).then((decode1) => {
             jData = JSON.parse(decode1);
             console.log(jData);
-            if (sistem.sistem1.domain == jData.a) {
+            if (sistem.sistem1.urlBase == jData.b) {
                 
                 request.post('https://admapiapp.herokuapp.com/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ/eyJ1c2VybmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3QiLCJpYXQiOjE1MDE4NzM5NDMsImV4cCI6MTUwMTg4MDk0M3', { form: { data: req.body.monkey } }, (err, httpResponse, body) => {
                     console.log('estoy adentro de if');
@@ -31,7 +31,7 @@ var conector = {
                 })
 
                 //sistemConf.sistem2.urlBase + sistemConf.sistem2.tkm
-            } else if (sistem.sistem3.domain == jData.a) {
+            } else if (sistem.sistem3.urlBase == jData.b) {
                 request.post('https://admapiapp.herokuapp.com/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ/eyJ1c2VybmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3QiLCJpYXQiOjE1MDE4NzM5NDMsImV4cCI6MTUwMTg4MDk0M3', { form: { data: req.body.monkey } }, (err, httpResponse, body) => {
                     console.log('estoy adentro de else if');
                     console.log({sistemConfig1:sistem.sistem1});
