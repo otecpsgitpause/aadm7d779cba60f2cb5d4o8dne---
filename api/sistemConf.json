@@ -2,16 +2,16 @@
 
     "sistem1": {
         "domain": "localhost",
-        "urlBase": "http://localhost:4200/",
-        "appPortRun": "4200",
-        "appProtocolRun": "http:",
+        "urlBase": "https://d41d8cd98f00b20-adm-otecpausa.firebaseapp.com/",
+        "appPortRun": "",
+        "appProtocolRun": "https:",
         "identification": "a946306bedfdf139e73a425881d1644ca50a7de22914"
     },
     "sistem3": {
         "domain": "localhost",
         "urlBase": "https://d41d8cd98f00b20-adm-otecpausa.firebaseapp.com/",
-        "appPortRun": "4201",
-        "appProtocolRun": "http:",
+        "appPortRun": "",
+        "appProtocolRun": "https:",
         "identification": "a946306bedfdf139e73a425881d1644ca50a7de22914"
     },
     "sistem2": {
